@@ -1,0 +1,35 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#5b21b6;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#techGradient)"/>
+  
+  <!-- Brain/CPU -->
+  <circle cx="200" cy="120" r="50" fill="#8b5cf6" opacity="0.3"/>
+  <circle cx="200" cy="120" r="35" fill="#a855f7" opacity="0.5"/>
+  <circle cx="200" cy="120" r="20" fill="#c084fc"/>
+  
+  <!-- Circuit lines -->
+  <path d="M150 80 L200 120 L250 80" stroke="#8b5cf6" stroke-width="2" fill="none"/>
+  <path d="M150 160 L200 120 L250 160" stroke="#8b5cf6" stroke-width="2" fill="none"/>
+  <path d="M120 100 L200 120 L280 100" stroke="#8b5cf6" stroke-width="2" fill="none"/>
+  <path d="M120 140 L200 120 L280 140" stroke="#8b5cf6" stroke-width="2" fill="none"/>
+  
+  <!-- Code blocks -->
+  <rect x="50" y="200" width="120" height="60" rx="5" fill="white" opacity="0.9"/>
+  <text x="60" y="220" font-family="monospace" font-size="10" fill="#374151">function()</text>
+  <text x="60" y="235" font-family="monospace" font-size="10" fill="#374151">{</text>
+  <text x="60" y="250" font-family="monospace" font-size="10" fill="#374151">  return true;</text>
+  <text x="60" y="265" font-family="monospace" font-size="10" fill="#374151">}</text>
+  
+  <rect x="230" y="200" width="120" height="60" rx="5" fill="white" opacity="0.9"/>
+  <text x="240" y="220" font-family="monospace" font-size="10" fill="#374151">class Tech</text>
+  <text x="240" y="235" font-family="monospace" font-size="10" fill="#374151">{</text>
+  <text x="240" y="250" font-family="monospace" font-size="10" fill="#374151">  expertise()</text>
+  <text x="240" y="265" font-family="monospace" font-size="10" fill="#374151">}</text>
+</svg>

@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  shrig-solutions-app-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+    volumes:
+      # Mount source code for hot reloading
+      - .:/app
+      # Exclude node_modules from volume mount
+      - /app/node_modules
+    restart: unless-stopped
+    container_name: shrig-solutions-web-app-dev

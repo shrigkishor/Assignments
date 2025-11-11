@@ -1,0 +1,41 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sustainableGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#sustainableGradient)"/>
+  
+  <!-- Tree -->
+  <rect x="190" y="180" width="20" height="80" fill="#8b5a2b"/>
+  <circle cx="200" cy="120" r="40" fill="#22c55e"/>
+  <circle cx="180" cy="100" r="25" fill="#16a34a"/>
+  <circle cx="220" cy="110" r="30" fill="#15803d"/>
+  
+  <!-- Sun -->
+  <circle cx="320" cy="80" r="25" fill="#fbbf24"/>
+  <path d="M320 50 L320 40 M320 120 L320 110 M290 80 L280 80 M360 80 L350 80" stroke="#f59e0b" stroke-width="3"/>
+  
+  <!-- Wind turbines -->
+  <rect x="80" y="160" width="8" height="60" fill="#6b7280"/>
+  <circle cx="84" cy="160" r="20" fill="#9ca3af" opacity="0.5"/>
+  <path d="M64 160 L104 160" stroke="#9ca3af" stroke-width="2"/>
+  <path d="M84 140 L84 180" stroke="#9ca3af" stroke-width="2"/>
+  
+  <!-- Recycle symbol -->
+  <path d="M300 200 L320 200 Q330 200 330 210 L330 230 Q330 240 320 240 L300 240 Q290 240 290 230 L290 210 Q290 200 300 200" fill="#10b981" opacity="0.8"/>
+  <path d="M310 200 L310 240" stroke="white" stroke-width="2"/>
+  <path d="M300 210 L320 210" stroke="white" stroke-width="2"/>
+  
+  <!-- Growth chart -->
+  <path d="M50 250 L80 240 L110 230 L140 220 L170 210 L200 200" stroke="#10b981" stroke-width="3" fill="none"/>
+  <circle cx="50" cy="250" r="3" fill="#10b981"/>
+  <circle cx="80" cy="240" r="3" fill="#10b981"/>
+  <circle cx="110" cy="230" r="3" fill="#10b981"/>
+  <circle cx="140" cy="220" r="3" fill="#10b981"/>
+  <circle cx="170" cy="210" r="3" fill="#10b981"/>
+  <circle cx="200" cy="200" r="3" fill="#10b981"/>
+</svg>
